@@ -6,6 +6,7 @@ wsl --install Ubuntu --name volttron-core17
 
 
 
+
 Step 2: Inside Ubuntu (WSL shell)
 ```
 
@@ -37,6 +38,11 @@ pip install toml
 
 
 ```
+
+
+
+
+
 
 
 step 3 pyenv shell integration
@@ -83,6 +89,25 @@ poetry --version
 
 
 ```
+
+
+
+gits 
+```
+
+
+
+git clone -b develop https://github.com/IgorJanGit/eclipse-bacnet-scan-tool.git
+git clone https://github.com/IgorJanGit/lib-protocol-proxy-bacnet.git
+git clone -b bacnet-async-upgrade https://github.com/IgorJanGit/lib-protocol-proxy.git
+
+
+
+
+```
+
+
+this needs to be readept for the code 
 
 ```
 #!/usr/bin/env python3
